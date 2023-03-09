@@ -234,7 +234,7 @@ class ReactTags extends Component {
       this.props.handleInputChange(e.target.value);
     }
 
-    const query = e.target.value.trim();
+    const query = e.target.value;
 
     this.setState({ query }, this.updateSuggestions);
   }

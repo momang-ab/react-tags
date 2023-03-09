@@ -194,7 +194,7 @@ var ReactTags = function (_Component) {
         this.props.handleInputChange(e.target.value);
       }
 
-      var query = e.target.value.trim();
+      var query = e.target.value;
 
       this.setState({ query: query }, this.updateSuggestions);
     }
